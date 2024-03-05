@@ -1,3 +1,4 @@
+import tanahLotImage from "../../../assets/destination-views/destinations/tanah-lot.png"
 import puraBesakihImage from "../../../assets/destination-views/destinations/besakih.jpg"
 import gunungAgungImage from "../../../assets/destination-views/destinations/gunung-agung.jpg"
 import pantaiKutaImage from "../../../assets/destination-views/destinations/pantai-kuta.jpg"
@@ -6,15 +7,21 @@ import baliZooImage from "../../../assets/destination-views/destinations/bali-zo
 import bloomsGardenImage from "../../../assets/destination-views/destinations/blooms-garden.png"
 import penglipuranImage from "../../../assets/destination-views/destinations/penglipuran.png"
 import tegalalangImage from "../../../assets/destination-views/destinations/tegalalang.png"
+import bajrasandhiImage from "../../../assets/destination-views/destinations/monumen-bajra-sandhi.png"
+import sukawatiImage from "../../../assets/destination-views/destinations/pasar-sukawati.png"
+import danaubuyanImage from "../../../assets/destination-views/destinations/danau-buyan.png"
+import selingsingImage from "../../../assets/destination-views/destinations/selingsing.png"
+import pandeegiImage from "../../../assets/destination-views/destinations/pande-egi.png"
+import pandeImage from "../../../assets/destination-views/destinations/pande.png"
 
 export const DataDestinations = [
     {
         id: 1,
-        title: "Pura Besakih",
+        title: "Tanah Lot",
         type: "Pura",
-        location: "Karangasem, Bali",
-        image: puraBesakihImage,
-        link: "test",
+        location: "Tabanan, Bali",
+        image: tanahLotImage,
+        link: "detail-destinasi/1",
         duration: 1200
     },
     {
@@ -79,5 +86,98 @@ export const DataDestinations = [
         image: tegalalangImage,
         link: "test",
         duration: 2600
+    },
+    {
+        id: 9,
+        title: "Pura Besakih",
+        type: "Pura",
+        location: "Karangasem, Bali",
+        image: puraBesakihImage,
+        link: "test",
+        duration: 2800
+    },
+    {
+        id: 10,
+        title: "Monumen Bajra Sandhi",
+        type: "Landmark, Area Hijau",
+        location: "Puputan, Bali",
+        image: bajrasandhiImage,
+        link: "test",
+        duration: 3000
+    },
+    {
+        id: 11,
+        title: "Pasar Seni Sukawati",
+        type: "Kesenian, Oleh-Oleh",
+        location: "Sukawati, Bali",
+        image: sukawatiImage,
+        link: "test",
+        duration: 3000
+    },
+    {
+        id: 12,
+        title: "Danau Buyan",
+        type: "Danau",
+        location: "Gitgit, Bali",
+        image: danaubuyanImage,
+        link: "test",
+        duration: 3000
+    },
+]
+
+export const DataOtherDestination = [
+    {
+        id: 1, 
+        title: "Monumen Bajra Sandhi",
+        type: "Landmark, Area Hijau",
+        location: "Puputan, Bali",
+        image: bajrasandhiImage,
+        link: "test",
+    },
+    {
+        id: 2, 
+        title: "Pasar Seni Sukawati",
+        type: "Kesenian, Oleh-Oleh",
+        location: "Sukawati, Bali",
+        image: sukawatiImage,
+        link: "test",
+    },
+    {
+        id: 3, 
+        title: "Danau Buyan",
+        type: "Danau",
+        location: "Gitgit, Bali",
+        image: danaubuyanImage,
+        link: "test",
+    },
+]
+
+export const DataOtherDestinationCulinary = [
+    {
+        id: 1, 
+        title: "Babi Guling Selingsing",
+        type: "Buka Pukul 12.00 - 18.30 WITA",
+        location: "Jalan Raya Munggu Kapal, Kediri, Tabanan",
+        image: selingsingImage,
+        link: "test",
+        duration: 1200
+    },
+    {
+        id: 2, 
+        title: "Babi Guling Pande Egi",
+        type: "Buka 08.00 - 21.00 WITA",
+        location: "Br. Pande, Gianyar",
+        image: pandeegiImage,
+        link: "test",
+        duration: 1400
+    },
+    {
+        id: 3, 
+        title: "Babi Guling Pande",
+        type: "Buka Pukul 09.00 - 13.00 WITA",
+        location: "Bangli, Kabupaten Bangli",
+        image: pandeImage,
+        link: "test",
+        duration: 1600
     },
 ]

@@ -3,7 +3,6 @@ import ArticleAndBlog from "./components/ArticleAndBlog";
 import Destination from "./components/Destination";
 import Hero from "./components/Hero";
 import Information from "./components/Information";
-import Maps from "./components/Maps";
 import MediaPartner from "./components/MediaPartner";
 import FollowUs from "./components/FollowUs";
 import Testimonials from "./components/Testimonials";
@@ -29,7 +28,6 @@ const LandingPages = () => {
         <Testimonials />
         <FollowUs />
         <Footer />
-        {/* <Maps /> */}
     </>
   )
 }

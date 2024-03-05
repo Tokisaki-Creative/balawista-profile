@@ -11,7 +11,7 @@
 
 
 body {
-    @apply font-jakartaSans text-secondary;
+    @apply font-jakartaSans text-secondary scroll-smooth;
 }
 
 .font-indo {

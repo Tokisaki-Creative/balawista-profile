@@ -1,11 +1,11 @@
 import { useEffect } from "react";
-import { DataDestinations } from "../constant/index"
+import { DataOtherDestinationCulinary } from "../constant/index"
 import { EnvironmentFilled } from "@ant-design/icons"
 
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const Destinations = () => {
+const CulinaryDestination = () => {
     useEffect(() => {
         AOS.init();
     }, []);
@@ -14,12 +14,12 @@ const Destinations = () => {
         <section className="my-32">
             <div className="container">
                 <div data-AOS="fade-down" data-aos-duration="1200">
-                    <p className="font-semibold text-primary text-base">Pilihan Banyak Orang</p>
-                    <h2 className="mt-2 text-2xl md:text-[32px] font-extrabold text-secondary leading-8 md:leading-10">Destinasi Populer</h2>
+                    <p className="font-semibold text-primary text-base">Kuliner Khas</p>
+                    <h2 className="mt-2 text-2xl md:text-[32px] font-extrabold text-secondary leading-8 md:leading-10">Destinasi Kuliner</h2>
                 </div>
 
                 <div className="mt-4 md:mt-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-8">
-                    {DataDestinations.map((items) => (
+                    {DataOtherDestinationCulinary.map((items) => (
                     <div data-AOS="fade-down" data-aos-duration={items.duration} key={items.id} className="bg-white rounded-lg p-4 shadow-lg">
                         <a href={items.link}>
                             <img className="rounded-lg h-[152px] w-full" src={items.image} alt={items.title} />
@@ -44,4 +44,4 @@ const Destinations = () => {
     )
 }
 
-export default Destinations
+export default CulinaryDestination

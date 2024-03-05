@@ -20,7 +20,7 @@ const ArticleAndBlog = () => {
                         <div className="mt-[10px] flex gap-2.5 items-center">
                             <span className="text-2xl md:text-[32px]">✨</span>
                             <span className="size-2.5 md:size-3 bg-secondary rounded-full"></span>
-                            <h2 className="mt-2 md:mt-4 text-2xl md:text-[32px] font-extrabold text-secondary">Dapatkan Informasi & Fakta Seru Lainnya</h2>
+                            <h2 className="text-2xl md:text-[32px] font-extrabold text-secondary">Dapatkan Informasi & Fakta Seru Lainnya</h2>
                         </div>
                     </div>
                     <div className="mt-4 lg:mt-0">

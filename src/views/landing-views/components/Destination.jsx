@@ -51,7 +51,7 @@ const Destination = () => {
                         <div className="mt-[10px] flex gap-2.5 items-center">
                             <span className="text-2xl md:text-[32px]">✨</span>
                             <span className="size-2.5 md:size-3 bg-secondary rounded-full"></span>
-                            <h2 className="mt-2 md:mt-4 text-2xl md:text-[32px] font-extrabold text-secondary max-w-xs md:max-w-full">Jelajahi Keberagaman <span className="text-primary">Pulau bali</span></h2>
+                            <h2 className="text-2xl md:text-[32px] font-extrabold text-secondary max-w-xs md:max-w-full">Jelajahi Keberagaman <span className="text-primary">Pulau bali</span></h2>
                         </div>
                     </div>
                     <Flex className="mt-4 lg:mt-0 gap-2 md:gap-4">
@@ -100,7 +100,7 @@ const Destination = () => {
 
                                         )}
                                         <div className="text-white flex gap-1 items-center hover:text-primary">
-                                            <a href="#" className="text-xs hover:text-primary">Selengkapnya</a>
+                                            <a href={items.link} className="text-xs hover:text-primary">Selengkapnya</a>
                                             <RightOutlined className="text-[10px] hover:text-primary" />
                                         </div>
                                     </div>

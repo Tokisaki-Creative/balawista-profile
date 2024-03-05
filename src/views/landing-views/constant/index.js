@@ -26,7 +26,7 @@ export const DataArticleAndBlog = [
         type: "Travel Tips",
         title: "Perlu Kamu Ketahui, Ini Starter Pack Wajib untuk Kamu Berlibur Ke Bali!",
         description: "Apakah kamu merencanakan liburan ke Pulau Dewata, Bali? Jika iya, kamu pasti ingin...",
-        link: "",
+        link: "detail-artikel/1",
         image: baliImage,
         duration: 1200
     },
@@ -35,9 +35,9 @@ export const DataArticleAndBlog = [
         date: "28 Februari 2024",
         admin: "Admin Nara",
         type: "Destination",
-        title: "Perlu Kamu Ketahui, Ini Starter Pack Wajib untuk Kamu Berlibur Ke Bali!",
+        title: "Buat Kencanmu Tak Terlupakan dengan 10 Spot Wisata Couple Terfavorit di Bali!",
         description: "Apakah kamu merencanakan liburan ke Pulau Dewata, Bali? Jika iya, kamu pasti ingin...",
-        link: "",
+        link: "detail-artikel/2",
         image: baturImage,
         duration: 1600
     },
@@ -105,7 +105,7 @@ export const DataDestination = [
         id: 6,
         name: "Babi Guling",
         location: "Makanan Khas Bali",
-        link: "",
+        link: "detail-destinasi/2",
         type: "info",
         description: "Babi guling adalah masakan khas Bali. Dalam proses pembuatannya, diguling-gulingkan di atas bara api.",
         image: babigulingImage

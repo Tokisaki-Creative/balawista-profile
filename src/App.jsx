@@ -7,6 +7,8 @@ import AboutUs from "@/views/about-us-views";
 import Header from "./components/layout-components/HeaderVersionTwo"
 import Footer from "./components/layout-components/Footer"
 import DetailArticleTwo from "./views/article-views/DetailArticleTwo";
+import DetailDestinationOne from "./views/destination-views/DetailDestinationOne";
+import DetailDestinationTwo from "./views/destination-views/DetailDestinationTwo";
 
 function App() {
 
@@ -27,6 +29,20 @@ function App() {
               <>
                 <Header />
                 <DetailArticleTwo />
+                <Footer />
+              </>
+            } />
+            <Route path="/detail-destinasi/1" element={
+              <>
+                <Header />
+                <DetailDestinationOne />
+                <Footer />
+              </>
+            } />
+            <Route path="/detail-destinasi/2" element={
+              <>
+                <Header />
+                <DetailDestinationTwo />
                 <Footer />
               </>
             } />
