@@ -7,6 +7,7 @@ import { DataTestimonial } from "../constant";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import ArrowIcon from "../../../components/shared-components/ArrowIcon";
 
 const TentangBalawista = () => {
   useEffect(() => {
@@ -29,10 +30,7 @@ const TentangBalawista = () => {
               <br /> we are setting up business in the <br />
               realm of <span className="font-bold">Tourism.</span>
             </h2>
-            <div className="flex flex-row items-center gap-4 mt-8 md:mt-12">
-              <p className="bold text-md font-bold">View More</p>
-              <img src={arrowIcon} alt="arrow-icon" className="w-12" />
-            </div>
+            <ArrowIcon />
           </div>
         </div>
       </div>
