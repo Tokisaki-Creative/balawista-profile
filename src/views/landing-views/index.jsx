@@ -9,27 +9,24 @@ import Testimonials from "./components/Testimonials";
 import Welcome from "./components/Welcome";
 import Footer from "../../components/layout-components/Footer";
 import { Helmet } from "react-helmet";
+import ActivityGallery from "./components/ActivityGallery";
 
 const LandingPages = () => {
   return (
     <>
-        <Helmet>
-          <meta charSet="utf-8" />
-          <title>Pesona Dewata</title>
-          <link rel="canonical" href="http://mysite.com/example" />
-        </Helmet>
-        <Header />
-        <Hero />
-        <MediaPartner />
-        <Welcome />
-        <Destination />
-        <Information />
-        <ArticleAndBlog />
-        <Testimonials />
-        <FollowUs />
-        <Footer />
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Balawista - Landing Page</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
+      <Header />
+      <Hero />
+      <MediaPartner />
+      <Welcome />
+      <ActivityGallery />
+      <Footer />
     </>
-  )
-}
+  );
+};
 
 export default LandingPages;
