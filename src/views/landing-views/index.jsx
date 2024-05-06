@@ -10,6 +10,7 @@ import Welcome from "./components/Welcome";
 import Footer from "../../components/layout-components/Footer";
 import { Helmet } from "react-helmet";
 import ActivityGallery from "./components/ActivityGallery";
+import TentangBalawista from "./components/TentangBalawista";
 
 const LandingPages = () => {
   return (
@@ -23,6 +24,7 @@ const LandingPages = () => {
       <Hero />
       <MediaPartner />
       <Welcome />
+      <TentangBalawista />
       <ActivityGallery />
       <Footer />
     </>
