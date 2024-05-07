@@ -30,7 +30,9 @@ const TentangBalawista = () => {
               <br /> we are setting up business in the <br />
               realm of <span className="font-bold">Tourism.</span>
             </h2>
-            <ArrowIcon />
+            <div className="mt-8 md:mt-12">
+              <ArrowIcon />
+            </div>
           </div>
         </div>
       </div>
