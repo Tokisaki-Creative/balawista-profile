@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { Flex } from "antd";
-import heroImage from "../../../assets/landing-views/hero/hero-image.jpg";
+import heroImage from "../../../assets/kegiatan-views/hero/hero-image.jpg";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -23,8 +23,8 @@ const Hero = () => {
         data-aos-duration="1200"
         className="absolute top-0 w-full h-full flex-col justify-center items-center"
       >
-        <h1 className="md:max-w-xl text-center text-4xl md:text-5xl font-extrabold text-white lg:leading-[60px]">
-          Liburannn dan Jelajahi <span className="">Pulau Bali</span>
+        <h1 className="md:max-w-4xl text-center text-4xl md:text-5xl font-extrabold text-white lg:leading-[60px]">
+          Beragam Aktivitas dan Keseruan di Balawista Buleleng
         </h1>
         {/* <p className="mt-2 md:mt-4 text-white text-sm md:text-base lg:text-lg max-w-sm md:max-w-lg lg:max-w-xl text-center">Kami akan selalu update terkait tempat liburan baru di Bali dengan mengikuti perkembangan para influencer di sosial media</p> */}
         <Flex className="mt-4 md:mt-8 flex-col md:flex-row md:justify-center lg:justify-start">

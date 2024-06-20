@@ -42,6 +42,7 @@ const Header = () => {
 
   const [color, setColor] = useState("text-white");
   const [hamburgerColor, setHamburgerColor] = useState("#FFF");
+  const [logo, setLogo] = useState("balawista-putih.svg");
 
   window.onscroll = () => {
     const header = document.querySelector("header");
@@ -51,10 +52,12 @@ const Header = () => {
       header.classList.add("navbar-fixed");
       setColor("text-secondary");
       setHamburgerColor("#111827");
+      setLogo("balawista-merah.svg");
     } else {
       header.classList.remove("navbar-fixed");
       setColor("text-white");
       setHamburgerColor("#FFF");
+      setLogo("balawista-putih.svg");
     }
   };
 
@@ -63,7 +66,8 @@ const Header = () => {
       <div className="container">
         <nav className="flex items-center justify-between py-4">
           <a href="/" className={`${color} transition-all duration-500`}>
-            <p className="text-4xl font-indo">pesona dewata</p>
+            {/* <p className="text-4xl font-indo">balawista</p> */}
+            <img src={`/${logo}`} alt="" className="h-10" />
           </a>
           <Flex className="md:hidden">
             <Hamburger
