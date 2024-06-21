@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import agusDharmaImage from "../../../assets/about-us-views/AgusDharma.jpg";
 
 const TopMessage = () => {
   useEffect(() => {
@@ -18,7 +19,7 @@ const TopMessage = () => {
             everyone involved in tourism to promote Bali.
           </h2>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-8 lg:gap-16 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-12 lg:gap-24 items-center">
           <div
             data-AOS="fade-left"
             data-aos-duration="1200"
@@ -71,7 +72,7 @@ const TopMessage = () => {
             data-AOS="fade-right"
             data-aos-duration="1200"
             className="w-3/5 md:w-full mx-auto col-span-5"
-            src=""
+            src={agusDharmaImage}
             alt="hero-image"
           />
         </div>

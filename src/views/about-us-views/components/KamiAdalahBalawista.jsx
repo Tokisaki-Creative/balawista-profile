@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import balaImage8 from "../../../assets/landing-views/documentation/8.jpg";
 
 const KamiAdalahBalawista = () => {
   useEffect(() => {
@@ -15,7 +16,7 @@ const KamiAdalahBalawista = () => {
             data-AOS="fade-right"
             data-aos-duration="1200"
             className="w-3/5 md:w-full mx-auto"
-            src=""
+            src={balaImage8}
             alt="hero-image"
           />
           <div data-AOS="fade-left" data-aos-duration="1200">

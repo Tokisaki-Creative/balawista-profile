@@ -1,5 +1,20 @@
 import { useEffect } from "react";
-import informationImage from "../../../assets/landing-views/information/information-image.svg";
+import balaImage1 from "../../../assets/landing-views/documentation/1.jpg";
+import balaImage2 from "../../../assets/landing-views/documentation/2.jpg";
+import balaImage3 from "../../../assets/landing-views/documentation/3.jpg";
+import balaImage4 from "../../../assets/landing-views/documentation/4.jpg";
+import balaImage5 from "../../../assets/landing-views/documentation/5.jpg";
+import balaImage6 from "../../../assets/landing-views/documentation/6.jpg";
+import balaImage7 from "../../../assets/landing-views/documentation/7.jpg";
+import balaImage8 from "../../../assets/landing-views/documentation/8.jpg";
+import balaImage9 from "../../../assets/landing-views/documentation/9.jpg";
+import balaImage10 from "../../../assets/landing-views/documentation/10.jpg";
+import balaImage11 from "../../../assets/landing-views/documentation/11.jpg";
+import balaImage12 from "../../../assets/landing-views/documentation/12.jpg";
+import balaImage13 from "../../../assets/landing-views/documentation/13.jpg";
+import balaImage14 from "../../../assets/landing-views/documentation/17.jpg";
+import balaImage15 from "../../../assets/landing-views/documentation/18.jpg";
+import balaImage16 from "../../../assets/landing-views/documentation/19.jpg";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -33,22 +48,22 @@ const ActivityGallery = () => {
             data-AOS="fade-down"
             data-aos-duration="1200"
           >
-            <img src="https://source.unsplash.com/bYuI23mnmDQ" />
-            <img src="https://source.unsplash.com/Nllx4R-2c3o" />
-            <img src="https://source.unsplash.com/lp40q07DIe0" />
-            <img src="https://source.unsplash.com/wfalq01jJuU" />
-            <img src="https://source.unsplash.com/rMHNK_skwwU" />
-            <img src="https://source.unsplash.com/WBMjuGpbrCQ" />
-            <img src="https://source.unsplash.com/nCUZ5BYBL_o" />
-            <img src="https://source.unsplash.com/3u4fzMQZhjc" />
-            <img src="https://source.unsplash.com/haOIqIPSwps" />
-            <img src="https://source.unsplash.com/3UrYD7NNVxk" />
-            <img src="https://source.unsplash.com/fm1JKDItlVM" />
-            <img src="https://source.unsplash.com/qPpq1EVs8vw" />
-            <img src="https://source.unsplash.com/xRyL63AwZFE" />
-            <img src="https://source.unsplash.com/XeNKWTiCPNw" />
-            <img src="https://source.unsplash.com/DFt3T5r_4FE" />
-            <img src="https://source.unsplash.com/Ebwp2-6BG8E" />
+            <img src={balaImage1} />
+            <img src={balaImage2} />
+            <img src={balaImage3} />
+            <img src={balaImage4} />
+            <img src={balaImage5} />
+            <img src={balaImage6} />
+            <img src={balaImage7} />
+            <img src={balaImage8} />
+            <img src={balaImage9} />
+            <img src={balaImage10} />
+            <img src={balaImage11} />
+            <img src={balaImage12} />
+            <img src={balaImage13} />
+            <img src={balaImage14} />
+            <img src={balaImage15} />
+            <img src={balaImage16} />
           </div>
         </div>
       </div>
